@@ -1,0 +1,7 @@
+name: infrastructure
+description: IaC with Golang/Pulumi
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
